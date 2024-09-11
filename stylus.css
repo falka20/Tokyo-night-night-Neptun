@@ -1,0 +1,617 @@
+/* ==UserStyle==
+@name           ?
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document url-prefix("https://neptunh.uni-eszterhazy.hu/Hallgato/login.aspx"),
+url-prefix("https://neptunh.uni-eszterhazy.hu/Hallgato/Login.aspx"),
+url("https://neptunh.uni-eszterhazy.hu/Hallgato/login.aspx"), regexp(".*login.aspx.*"), regexp(".*Login.aspx.*") {
+    /*login page css*/
+    #tdIstitute {
+        /*Your code should go under this comment*/
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    #div_login_right_side{
+        background: url("https://i.imgur.com/b3evZyT.png")
+    }
+    .login_center {
+        /*Your code should go under this comment*/
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    .no_style:nth-child(3) > td {
+        /*Your code should go under this comment*/
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    #tableMain > tbody > tr:nth-child(4) > td {
+        /*Your code should go under this comment*/
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    .info_table_center_container_td {
+        /*Your code should go under this comment*/
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    .login_button_td {
+        /*Your code should go under this comment*/
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    .login_news_content div {
+        background-color: transparent !important;
+        color: #a9b1d6 !important;
+    }
+
+    #lblUsername {
+        /*Your code should go under this comment*/
+        color: #c0caf5
+    }
+
+    #lblPwd {
+        /*Your code should go under this comment*/
+        color: #c0caf5;
+    }
+    #td_Footer {
+        /*Your code should go under this comment*/
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    .link {
+        color: #0db9d7;
+    }
+    .login_content_separator {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        padding-right: 0px;
+    }
+    #loginWaitBackground{
+        background: #292e42
+    }
+}
+@-moz-document regexp(".*neptun.*") {
+    /*all neptun site*/
+    fieldset {
+        border-color: #292e42
+    }
+    body {
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+
+    label {
+        color: #c0caf5
+    }
+    span {
+        color: #c0caf5 !important;
+        background-color: transparent !important;
+    }
+    a {
+        color: #0db9d7 !important;
+        background: none !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+    p {
+        color: #c0caf5 !important;
+    }
+    tr,
+    td,
+    h2 {
+        background-color: #1a1b26 !important;
+        border-color: #292e42 !important;
+    }
+    td,
+    li {
+        color: #c0caf5 !important;
+    }
+    input {
+        background-color: #292e42 !important;
+        border-radius: 5px !important;
+        padding: 0px 0px 0px 0px !important;
+        margin: 0px 0px 0px 0px !important;
+        border-color: transparent !important;
+        color: #c0caf5 !important;
+    }
+    .button {
+        background: #292e42 !important;
+        color: #0db9d7 !important;
+    }
+}
+@-moz-document regexp("https://neptunh.uni-eszterhazy.hu/Hallgato/main.aspx.*"), regexp(".*main.aspx.*") {
+    /*main page css*/
+    .main_header_m,
+    #upChooser,
+    .main_header_l,
+    .top_menu_wrapper tbody tr td,
+    .headerWithCheckbox {
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    .neptunlogoclick{
+        background: url("https://neptunh.uni-eszterhazy.hu/Hallgato/App_Themes/Skin_Neptun_Login/Default/Hallgato/login_logo.png");
+        background-repeat: no-repeat;
+    }
+    .main_header_r{
+        background: #1a1b26;
+    }
+    .headerWithCheckbox {
+        border-color: #292e42
+    }
+    .header_sortedup,
+    header_sorteddown {
+        background: #1a1b26;
+    }
+    .link {
+        color: #0db9d7 !important;
+    }
+    #mb1 li ul {
+        background-color: #292e42
+    }
+    #mb1 li:hover {
+        color: #7c8eda !important;
+        font-weight: bolder;
+    }
+    /*#mb1 li ul div {}*/
+    #modalpanelAttentionSessionEnd * {
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+        background-color: #1a1b26;
+    }
+    .modalBackground{
+        background-color: #292e42;
+    }
+    .modalheaderleftcorner{
+        border-top-left-radius: 25px;
+    }
+    .modalheaderrightcorner{
+        border-top-right-radius: 25px;
+    }
+    
+    .modalfooterleftcorner{
+        border-bottom-left-radius: 25px;
+    }
+    .GadgetHeaderPanelTitle {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+    }
+    .HeaderLeftCorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-top-left-radius: 25px;
+    }
+
+    .HeaderRightCorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-top-right-radius: 25px;
+    }
+    .GadgetHeaderPanelButtonLeftMenu {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+    }
+    .gadgetbodyleft,
+    .gadgetbodyright {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        background-size: 1px;
+    }
+    .gadgetbodyright {
+        padding-left: 0px;
+    }
+    .GadgetFooterLeftCorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-bottom-left-radius: 25px;
+    }
+    .GadgetFooterRightCorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-bottom-right-radius: 25px;
+    }
+
+    /*calendar*/
+    .calendar .DayHeader {
+        background-color: #1a1b26 !important;
+        color: #c0caf5 !important;
+    }
+    .calendar .calendar_othermonthdaystyle a {
+        color: #858ba6 !important;
+    }
+    .calendar .Day a:link,
+    .calendar .Day a:active,
+    .calendar .Day a:visited,
+    .calendar .Today a:link,
+    .calendar .Today a:active,
+    .calendar .Today a:visited,
+    .calendar .WeekendDay a:link,
+    .calendar .WeekendDay a:active,
+    .calendar .WeekendDay a:visited,
+    .calendar .calendar_weekendDdystyle a:link,
+    .calendar .calendar_weekendDdystyle a:active,
+    .calendar .calendar_weekendDdystyle a:visited {
+        color: #c0caf5 !important;
+    }
+    .calendar .Day {
+        background-color: #1a1b26 !important;
+        color: #c0caf5 !important;
+    }
+    .calendar .TodayDay,
+    .calendar .SelectedDay {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        background-color: #1a1b26 !important;
+        border-radius: 5px;
+    }
+    .calendar .SelectedDay a {
+        color: #7dcfff !important
+    }
+    .calendar .Day:hover,
+    .calendar .calendar_weekendDdystyle:hover,
+    .calendar .calendar_othermonthdaystyle:hover {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        background-color: #1a1b26 !important;
+        border-radius: 5px;
+    }
+
+    /*upBoxes -> bal ikonok*/
+        #upBoxes_upBoxesButtons_btnRss,
+    #upBoxes_upBoxesButtons_btnMessage,
+    #upBoxes_upBoxesButtons_btnFavorite,
+    #upBoxes_upBoxesButtons_btnCalendar {
+        opacity: 0;
+    }
+    #upBoxes_upBoxesButtons_trRSS td {
+        background-image: url("https://i.imgur.com/FhevbWd.png") !important;
+        height: 35px;
+        padding: 0px;
+        background-repeat: no-repeat;
+    }
+    #upBoxes_upBoxesButtons table tbody tr:nth-child(2) td {
+        background-image: url("https://i.imgur.com/DVpvqlh.png") !important;
+        background-repeat: no-repeat;
+    }
+    #upBoxes_upBoxesButtons table tbody tr:nth-child(3) td {
+        background-image: url("https://i.imgur.com/PA0uTYw.png") !important;
+        background-repeat: no-repeat;
+    }
+    #upBoxes_upBoxesButtons table tbody tr:nth-child(4) td {
+        background-image: url("https://i.imgur.com/424kcrS.png") !important;
+        background-repeat: no-repeat;
+    }
+    #upBoxes_upBoxesButtons table tbody tr td {
+        height: 56px;
+        padding: 0px;
+    }
+    #upBoxes_upBoxesButtons table tbody tr {
+        height: 58px;
+    }
+    /*FunctionHEader*/
+    .FunctionHeader * {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+    }
+    .FunctionHeader h1 {
+        color: #c0caf5 !important;
+    }
+    .FunctionHeaderLeftCorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-top-left-radius: 25px;
+    }
+    .FunctionHeaderRightCorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-top-right-radius: 25px;
+    }
+    .FunctionLeftSide,
+    .FunctionRightSide {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        background-size: 1px;
+    }
+    .mainFunctionCommandBottom {
+        border-bottom-color: #292e42 !important;
+    }
+    /*spHeader*/
+    .sp_header_midle_top,
+    .sp_afterheader {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        background-size: 1px;
+    }
+    .sp_header_right {
+        background-image: none;
+        border-right: 1px solid #292e42;
+
+        padding-left: 0px
+    }
+    .sp_header_left {
+        background-image: url("https://www.colorhexa.com/292e42.png") !important;
+        background-size: 1px 30px;
+    }
+    .sp_header_left_top {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-top-left-radius: 25px;
+    }
+    .sp_footerleftcorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-bottom-left-radius: 25px;
+    }
+    .sp_header_right_top {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-top-right-radius: 25px;
+    }
+    .sp_footerrightcorner {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-bottom-right-radius: 25px;
+    }
+    .sp_headerseparator {
+        display: none;
+    }
+    .sp_afterheaderrightside,
+    .sp_childbodyrightside,
+    .sp_afterheaderleftside,
+    .sp_childbodyleftside {
+        background-color: #292e42 !important;
+    }
+    .header,
+    #head_chk,
+    .header_sorteddown {
+        border-bottom-color: #292e42;
+    }
+    .table_body {
+        border-color: #292e42;
+    }
+
+    /*functionpanel*/
+    .grid_pagerpanel,
+    .grid_topfunctionpanel,
+    .header,
+    .header_sorteddown,
+    #head_chk {
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+    }
+    .grid_pagerpanel,
+    .grid_topfunctionpanel {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        background-size: 1px;
+    }
+    .grid_pagerrow_left {
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+        border-left: 1px solid #292e42;
+        border-top: 1px solid #292e42;
+    }
+    .grid_pagerrow_right {
+        background-image: url("https://www.colorhexa.com/1a1b26.png");
+        border-right: 1px solid #292e42;
+        border-top: 1px solid #292e42;
+    }
+    .pagerlink_disabled,
+    .pagerlink {
+        background-image: url("https://www.colorhexa.com/292e42.png");
+        border-radius: 5px;
+    }
+    .gridbutton {
+        color: #c5c9da !important;
+        margin-left: 8px !important;
+    }
+    .grid_footerleftcorner {
+        background-image: none;
+        border-left: 1px solid #292e42;
+        border-bottom: 1px solid #292e42;
+    }
+    .grid_RowCount,
+    .grid_bottomfunctionpanel {
+        background: #1a1b26;
+        border-bottom: 1px solid #292e42;
+    }
+    .grid_footerrightcorner {
+        background: #1a1b26;
+        border-right: 1px solid #292e42;
+        border-bottom: 1px solid #292e42;
+    }
+    .FunctionFooterLeftCorner {
+        background-image: url(https://www.colorhexa.com/292e42.png);
+        border-bottom-left-radius: 25px;
+    }
+    .FunctionFooterRightCorner {
+        background-image: url(https://www.colorhexa.com/292e42.png);
+        border-bottom-right-radius: 25px;
+    }
+    /*ajaxtab*/
+    .sda .ajax__tab_outer,
+    .sda .ajax__tab_outer * {
+        background-image: url("https://www.colorhexa.com/1a1b26.png") !important;
+    }
+    .sda .ajax__tab_active *,
+    .sda .ajax__tab_active .ajax__tab_outer,
+    .sda .ajax__tab_active .ajax__tab_inner,
+    .sda .ajax__tab_active .ajax__tab_tab {
+        background: url("https://www.colorhexa.com/27a1b9.png") !important;
+        border-radius: 25px;
+    }
+    .ajax__tab_active {
+        width: 132px;
+    }
+    .sda .ajax__tab_body {
+        border-top: 1px solid #292e42 !important;
+    }
+    /*footer*/
+    .footer_left,
+    .footer_mid,
+    .footer_menu,
+    .footer_sda_logo,
+    .footer_right {
+        background: #1a1b26;
+    }
+    /*excel,print,fix,search*/
+    .exceltd img,
+    .printtd img,
+    .fixheadertd img,
+    .searchtd img {
+        opacity: 0;
+    }
+    .exceltd {
+        background-image: url("https://i.imgur.com/IVmiUsW.png");
+        background-repeat: no-repeat;
+    }
+
+    .printtd {
+        background-image: url("https://i.imgur.com/h7cXh24.png");
+        background-repeat: no-repeat;
+    }
+    .fixheadertd {
+        background-image: url("https://i.imgur.com/7La0ceH.png");
+        background-repeat: no-repeat;
+    }
+
+    .searchtd {
+        background-image: url("https://i.imgur.com/wONttiS.png");
+        background-repeat: no-repeat;
+    }
+    /*órarend*/
+    .cHead {
+        background: url("https://www.colorhexa.com/1a1b26.png") !important;
+        border: 1px solid #292e42 !important;
+    }
+    .btnseparator {
+        opacity: 0;
+    }
+    .ftitle {
+        color: #c0caf5 !important;
+    }
+    .ctoolbar {
+        border-color: #292e42 !important;
+    }
+    .ctoolbar table tbody tr td * div span {
+        color: #0db9d7 !important;
+    }
+    .fcurrent {
+        background-color: #292e42 !important;
+        border-color: #fff0 !important;
+        border-radius: 5px;
+    }
+    .fcurrent div,
+    .fbutton:hover div {
+        border-color: #fff0 !important;
+    }
+    .fbutton:hover {
+        background-color: #292e42 !important;
+        border-color: #fff0 !important;
+        border-radius: 5px;
+    }
+    .chromeColor {
+        background: #292e42;
+        border-color: #292e42;
+    }
+    .printborder {
+        border-left: 1px solid #292e42;
+    }
+    .tg-time {
+        border-bottom: 1px solid #292e42;
+        overflow: visible;
+    }
+    .tg-times {
+        overflow: visible;
+    }
+    .function * {
+        border-color: #292e42 !important;
+    }
+    .chip dl dt {
+        background-color: #292e42 !important;
+        color: #c0caf5;
+    }
+    .chip dl {
+        background-color: #16161e !important;
+    }
+    .cb1 {
+        background-color: #292e42 !important;
+    }
+    table {
+        border-collapse: separate;
+    }
+    /*menu*/
+    .menu-parent {
+        background-image: url("https://www.colorhexa.com/1a1b26.png") !important;
+    }
+    .menu li {
+        border-color: #292e42 !important;
+        background-color: #1a1b26;
+    }
+    .menu-hover {
+        background-image: url("https://www.colorhexa.com/1a1b26.png") !important;
+        color: #7c8eda;
+    }
+    .menu:first-child {
+        border-top: 1px solid #292e42
+    }
+    .menu:last-child {
+        border-bottom: 1px solid #292e42
+    }
+    .menu div {
+        display: none;
+        opacity: 0;
+    }
+    /*grid context*/
+    .grid_contextheader {
+        background: #292e42 !important;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .grid_contextfooter {
+        background: #292e42 !important;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .contextitem_disabled span{
+        color: #545c7e !important;
+    }
+    .contextitem:hover {
+        background: #1a1b26;
+    }
+    .contextitem span:hover {
+        color: #7c8eda !important;
+    }
+    /*pop up window*/
+    .ui-dialog-titlebar {
+        background: #292e42 !important;
+        border-radius: 5px !important;
+        border: 0px;
+    }
+    .ui-resizable-handle, .ui-resizable-n{
+        border-color: #292e42 !important;
+            display: none;
+    }
+    .infopanel_icon{
+        background-image: url("https://i.imgur.com/mwAgVK8.png") !important;
+    }
+    .messageBoxTopLeft{
+        border-top-left-radius: 25px;
+    }
+    .messageBoxTopRight{
+        border-top-right-radius: 25px;
+    }
+    .messageBoxBottomRight{
+        border-bottom-right-radius: 25px;
+    }
+    .messageBoxBottomLeft{
+        border-bottom-left-radius: 25px;
+    }
+    #ui-id-1{
+        border-radius: 0px;
+    }
+    .ui-widget-content {
+        background: #1a1b26;
+    }
+    .ui-icon-extlink {
+        border-radius: 0px !important;
+    }
+    .ui-button {
+        background: #1a1b26;
+    }
+    .ui-button-text-only{
+        margin-right: 5px !important;
+    }
+    .ui-dialog-titlebar-close{
+        padding: 0px !important;
+    }
+    .readmessage_editor {
+        border-radius: 0px;
+        background: #1a1b26;
+        border-color: #292e42;  
+    }
+    .ui-dialog-footerbar{
+        border-radius: 5px;
+        background: #292e42;
+        border-color: #292e42
+    }
+    .ui-button{
+        background: #16161e !important;
+        border-radius: 5px !important;
+        padding: 4.84px 12.1px !important; 
+    }
+    .ui-widget-overlay{
+        background: #1a1b26
+    }
+}
